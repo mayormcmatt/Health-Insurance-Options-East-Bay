@@ -1,11 +1,8 @@
-/*.image-carousel {
-  position: relative;
-  width: 1000px;
-  margin: 0 auto;
-}*/
-
-.slide {
-  position: relative;
-  width: 1080px;
-  margin: 0 auto;
+#titleBanner {
+    background-image: url("../images/Daniel_Parks_East_Bay.jpg");
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40em;
 }
