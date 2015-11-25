@@ -7,7 +7,7 @@
     height: 40em;
 }
 
-#titleBanner h1, #titleBanner h5 {
+#titleBanner h1, #titleBanner h5, .titleBarLink {
     text-transform: uppercase;
     color: #FFF;
     margin: 0;
@@ -24,4 +24,34 @@
 #titleText span {
     font-size: 3.1em;
     font-weight: 700;
+}
+
+.navLinkText {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navLinkText:visited {
+    color: #FFF;
+}
+
+.navLinkText:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+.thinSectionTitle {
+    position: relative;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 170px;
+}
+
+#servicesRow {
+    height: 40em;
+    background-color: pink; /*DEBUG ONLY*/
 }
