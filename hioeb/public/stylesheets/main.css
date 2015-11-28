@@ -26,6 +26,10 @@
     font-weight: 700;
 }
 
+.navLink {
+    font-size: 0.8em;
+}
+
 .navLinkText {
     text-decoration: none;
     color: #FFF;
