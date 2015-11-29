@@ -56,6 +56,11 @@
 }
 
 #servicesRow {
-    height: 40em;
-    background-color: pink; /*DEBUG ONLY*/
+    height: 30em;
+    background-color: #A2CFB2;
+}
+
+#contactRow {
+    height: 30em;
+    background-color: #e7e7e7;
 }
