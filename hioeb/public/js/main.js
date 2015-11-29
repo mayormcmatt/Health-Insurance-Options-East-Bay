@@ -2,5 +2,5 @@
 $(document).ready(function(){
     var viewportHeight = $(window).height();
 
-    $('#titleBanner').height(viewportHeight);
+    $('#titleBanner').height(viewportHeight - 200);
 })
