@@ -1,10 +1,9 @@
 #titleBanner {
     background-image: url("../images/Daniel_Parks_East_Bay.jpg");
-    min-height: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40em;
+    /*height: 40em;*/
 }
 
 #titleBanner h1, #titleBanner h5, .titleBarLink {
@@ -42,6 +41,10 @@
 .navLinkText:hover {
     text-decoration: underline;
     color: #FFF;
+}
+
+.doForYou {
+    height: 25%;
 }
 
 .thinSectionTitle {
