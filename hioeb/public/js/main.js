@@ -4,11 +4,17 @@ function resizeTopBanner() {
     $('#titleBanner').height(viewportHeight - 200);
 }
 
-$('#servicesLink').click(function() {
+function scrollToServices() {
     $('html, body').animate({
-        scrollTop: $('#servicesRow').offset().top}, 'fast'
+        scrollTop: $('#servicesRow').offset().top}, 'slow'
     );
-});
+}
+
+function scrollToContact() {
+    $('html, body').animate({
+        scrollTop: $('#contactRow').offset().top}, 'fast'
+    );
+}
 
 $(document).ready(function() {
     resizeTopBanner();

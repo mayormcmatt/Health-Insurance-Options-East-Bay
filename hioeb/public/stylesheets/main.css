@@ -29,17 +29,21 @@
     font-size: 0.8em;
 }
 
-.navLinkText {
+.navLink a {
     text-decoration: none;
     color: #FFF;
 }
 
-.navLinkText:visited {
+.navLink a:visited {
     color: #FFF;
 }
 
-.navLinkText:hover {
+.navLink a:hover {
     text-decoration: underline;
+    color: #FFF;
+}
+
+.navLink a:active {
     color: #FFF;
 }
 
