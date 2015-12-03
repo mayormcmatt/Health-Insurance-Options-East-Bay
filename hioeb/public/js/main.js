@@ -12,7 +12,7 @@ function scrollToServices() {
 
 function scrollToContact() {
     $('html, body').animate({
-        scrollTop: $('#contactRow').offset().top}, 'fast'
+        scrollTop: $('#contactRow').offset().top}, 'slow'
     );
 }
 

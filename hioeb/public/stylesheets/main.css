@@ -29,21 +29,21 @@
     font-size: 0.8em;
 }
 
-.navLink a {
+#servicesLink, #contactLink, #aboutLink {
     text-decoration: none;
     color: #FFF;
 }
 
-.navLink a:visited {
+#servicesLink:visited, #contactLink:visited, #aboutLink:visited {
     color: #FFF;
 }
 
-.navLink a:hover {
+#servicesLink:hover, #contactLink:hover, #aboutLink:hover {
     text-decoration: underline;
     color: #FFF;
 }
 
-.navLink a:active {
+#servicesLink:active, #contactLink:active, #aboutLink:active {
     color: #FFF;
 }
 
